@@ -1,0 +1,16 @@
+/* SECTION 通用選擇器 */
+* {
+  /* ANCHOR 版面 */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* ANCHOR 字體 */
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #555;
+  /* ANCHOR 行 */
+  line-height: 1;
+}

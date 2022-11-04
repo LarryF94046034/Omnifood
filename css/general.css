@@ -1,0 +1,65 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+//SECTION[epic=字體大小系統] 字體大小系統區域 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+//!SECTION
+
+- Font weights
+//SECTION[epic=字體粗度系統] 字體粗度系統區域
+// NOTE Default: 400
+// NOTE Medium: 500
+// NOTE Semi-bold: 600
+// NOTE Bold: 700
+//!SECTION
+
+- Line heights
+//SECTION[epic=行高系統] 行高系統區域
+// NOTE Default: 1 
+// NOTE Small: 1.05
+// NOTE Medium: 1.2
+// NOTE Paragraph default: 1.6
+//!SECTION
+
+- Letter spacing
+//SECTION[epic=字母間距系統] 字母間距系統區域
+//!SECTION
+
+--- 02 COLORS
+//SECTION[epic=顏色系統] 主色區域
+// NOTE - Primary: #e67e22
+//!SECTION
+
+//SECTION[epic=顏色系統] 色調區域
+// NOTE - Tints:
+//!SECTION
+
+//SECTION[epic=顏色系統] 陰影區域
+// NOTE - Shades: 
+//!SECTION
+
+//SECTION[epic=顏色系統] 重點顏色區域
+// NOTE - Accents:
+//!SECTION
+
+//SECTION[epic=顏色系統] 灰階區域
+// NOTE - Greys
+//!SECTION
+
+--- 05 SHADOWS
+//SECTION[epic=陰影系統] 陰影區域
+// NOTE 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+//!SECTION
+
+--- 06 BORDER-RADIUS
+//SECTION[epic=邊框半徑系統] 邊框半徑區域
+// NOTE Default: 9px
+// NOTE Medium: 11px
+//!SECTION
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+//SECTION[epic=間隔系統] 間隔區域 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+//!SECTION
+*/
