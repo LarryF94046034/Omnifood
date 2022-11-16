@@ -23,6 +23,7 @@
 
 - Letter spacing
 //SECTION[epic=字母間距系統] 字母間距系統區域
+// -0.5px
 //!SECTION
 
 --- 02 COLORS
@@ -31,7 +32,9 @@
 //!SECTION
 
 //SECTION[epic=顏色系統] 色調區域
+// https://maketintsandshades.com/#e67e22
 // NOTE - Tints:
+// #fdf2e9 90% tints
 //!SECTION
 
 //SECTION[epic=顏色系統] 陰影區域
@@ -44,6 +47,8 @@
 
 //SECTION[epic=顏色系統] 灰階區域
 // NOTE - Greys
+// #555
+// #333
 //!SECTION
 
 --- 05 SHADOWS
