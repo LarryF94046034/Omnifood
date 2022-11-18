@@ -47,12 +47,31 @@ html {
   transition: all 0.3s;
 }
 /* !SECTION */
+
+/* SECTION grid */
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* !SECTION */
 /* !SECTION */
 
 /* SECTION body */
 body {
   /* ANCHOR 字體 */
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #555;
   /* ANCHOR 行 */
@@ -60,10 +79,13 @@ body {
 }
 
 /* SECTION header */
+/* SECTION logo */
 .logo {
   height: 2.2rem;
 }
+/* !SECTION */
 
+/* SECTION header */
 .header {
   /* ANCHOR 版面 */
   display: flex;
@@ -73,6 +95,54 @@ body {
   height: 9.6rem;
   padding: 0 4.8rem;
 }
+/* !SECTION */
+
+/* SECTION main-nav */
+.main-nav-list {
+  /* ANCHOR 版面 */
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  /* ANCHOR 樣式 */
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  /* ANCHOR 版面 */
+  display: inline-block;
+  /* ANCHOR 文字 */
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  /* ANCHOR 動畫 */
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  /* ANCHOR 文字 */
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  /* ANCHOR 版面 */
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  /* ANCHOR 文字 */
+  color: #fff;
+  /* ANCHOR 背景 */
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  /* ANCHOR 背景 */
+  background-color: #cf711f;
+}
+/* !SECTION */
 /* !SECTION */
 
 /* SECTION section:section-hero */
