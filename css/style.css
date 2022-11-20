@@ -18,17 +18,30 @@ html {
 /* !SECTION */
 
 /* SECTION reusable components */
-/* SECTION heading-primary */
-.heading-primary {
+/* SECTION heading */
+.heading-primary,
+.heading-secondary {
   /* ANCHOR 版面 */
 
   /* ANCHOR 字體 */
-  font-size: 5.2rem;
   font-weight: 700;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  /* ANCHOR 字體 */
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  /* ANCHOR 字體 */
+  font-size: 4.4rem;
+  line-height: 1.2;
+  /* ANCHOR 版面 */
+  margin-bottom: 9.6rem;
 }
 /* !SECTION */
 
@@ -52,6 +65,7 @@ html {
 .grid {
   display: grid;
   gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
@@ -64,6 +78,10 @@ html {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
 }
 /* !SECTION */
 /* !SECTION */
@@ -273,3 +291,91 @@ body {
 
 /* !SECTION hero */
 /* !SECTION section-hero*/
+
+/*<!-- SECTION section:section-how-->*/
+/*<!-- SECTION div:container-->*/
+/*<!-- SECTION span:subheading-->*/
+.subheading {
+  /* ANCHOR 版面 */
+  display: block;
+  /* ANCHOR 文字 */
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION h2:heading-secondary-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION div:container,,grid2cols-->*/
+/*<!-- SECTION div:step-text-box01-->*/
+/*<!-- SECTION p:step-number-->*/
+.step-number {
+  /* ANCHOR 文字 */
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION h3:heading-tertiary-->*/
+.heading-territory {
+  /* ANCHOR 文字 */
+  font-size: 3rem;
+  line-height: 1.2;
+  /* ANCHOR 版面 */
+  margin-bottom: 3.2rem;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION p:step-description-->*/
+.step-description {
+  /* ANCHOR 文字 */
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION div:step-img-box-->*/
+.step-img-box {
+  /* ANCHOR 版面 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.step-img {
+  width: 35%;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  /* ANCHOR 版面 */
+  content: "";
+  display: block;
+  border-radius: 50%;
+  /* ANCHOR 位置 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  z-index: -2;
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  z-index: -1;
+}
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/ ;

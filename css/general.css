@@ -35,11 +35,13 @@
 //SECTION[epic=顏色系統] 色調區域
 // https://maketintsandshades.com/#e67e22
 // NOTE - Tints:
-// #fdf2e9 90% tints
+// NOTE #fdf2e9 90% tints
+// NOTE #fae5d3 80
 //!SECTION
 
 //SECTION[epic=顏色系統] 陰影區域
 // NOTE - Shades: 
+// NOTE #cf711f 10% shades
 //!SECTION
 
 //SECTION[epic=顏色系統] 重點顏色區域
@@ -48,13 +50,20 @@
 
 //SECTION[epic=顏色系統] 灰階區域
 // NOTE - Greys
-// #555
-// #333
+// NOTE #555
+// NOTE #333
+// NOTE #ddd
+//!SECTION
+
+//SECTION[epic=顏色系統] 背景區域
+// NOTE - Background-Color
+// NOTE #fff
 //!SECTION
 
 --- 05 SHADOWS
 //SECTION[epic=陰影系統] 陰影區域
 // NOTE 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+// NOTE btn box-shadow: inset 0 0 0 3px #fff;
 //!SECTION
 
 --- 06 BORDER-RADIUS
