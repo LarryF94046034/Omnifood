@@ -292,6 +292,44 @@ body {
 /* !SECTION hero */
 /* !SECTION section-hero*/
 
+/* ANCHOR section-featured*/
+/*<!-- SECTION section:section-featured-->*/
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+/*<!-- SECTION div:container-->*/
+
+/* <!-- SECTION h2:heading-featured-in-->*/
+.heading-featured-in {
+  /* ANCHOR 字體 */
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  color: #999;
+  /* ANCHOR 版面 */
+  margin-bottom: 2.4rem;
+}
+/* <!-- !SECTION -->*/
+
+/*<!-- SECTION div:logos-->*/
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+}
+/*<!-- SECTION imgs-->*/
+/*<!-- !SECTION -->*/
+/* <!-- !SECTION -->*/
+
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+
+/* ANCHOR section-how*/
 /*<!-- SECTION section:section-how-->*/
 /*<!-- SECTION div:container-->*/
 /*<!-- SECTION span:subheading-->*/
