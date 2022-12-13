@@ -121,6 +121,10 @@ html {
 .grid--center-v {
   align-items: center;
 }
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
 /* !SECTION */
 
 /* SECTION margin */
@@ -883,11 +887,15 @@ body {
 /*<!-- !SECTION -->*/
 
 /*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
 
 /* ANCHOR section-cta*/
 /*<!-- SECTION section:section-cta-->*/
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta *:focus {
@@ -1003,6 +1011,121 @@ body {
 }
 /* <!-- !SECTION -->*/
 
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+
+/* ANCHOR section-footer*/
+/*<!-- SECTION footer:footer-->*/
+.footer {
+  padding: 9.6rem 0 12.8rem 0;
+}
+/*<!-- SECTION div:container grid grid--footer-->*/
+
+/*<!-- SECTION div:logo-col-->*/
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+/*<!-- SECTION a:footer-logo-->*/
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION img:img/omnifood-logo.png-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+
+/*<!-- SECTION ul:social-links-->*/
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+/*<!-- SECTION li-->*/
+/*<!-- SECTION a:footer-link-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION p:copyright-->*/
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION div:address-col-->*/
+/*<!-- SECTION p:footer-heading-->*/
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION address:contacts-->*/
+.contacts {
+  list-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+/*<!-- SECTION p:address-->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION p-->*/
+/*<!-- SECTION a:footer-link-->*/
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+/*<!-- !SECTION -->*/
+/*<!-- SECTION a:footer-link-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION nav:nav-col-->*/
+/*<!-- SECTION p:footer-heading-->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION ul:footer-nav-->*/
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+/*<!-- SECTION li:footer-link-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION nav:nav-col-->*/
+/*<!-- SECTION p:footer-heading-->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION ul:footer-nav-->*/
+/*<!-- SECTION li:footer-link-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- SECTION nav:nav-col-->*/
+/*<!-- SECTION p:footer-heading-->*/
+/*<!-- SECTION ul:footer-nav-->*/
+/*<!-- SECTION li:footer-link-->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
+/*<!-- !SECTION -->*/
 /*<!-- !SECTION -->*/
 /*<!-- !SECTION -->*/
 
